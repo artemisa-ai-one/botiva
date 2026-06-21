@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de IA | Empleados Virtuales 24/7</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0B0F19',
+                        accent: '#3B82F6',
+                        highlight: '#10B981'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-primary text-white py-4 px-6 fixed w-full z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter">
+                <i class="fa-solid fa-robot text-accent mr-2"></i>NexIA
+            </div>
+            <a href="#contacto" class="bg-accent hover:bg-blue-600 px-5 py-2 rounded-full font-semibold transition">Solicitar Demo</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white pt-32 pb-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+                No contrates más personal.<br>
+                <span class="text-accent">Contrata un Empleado Virtual 24/7.</span>
+            </h1>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Instalamos agentes de Inteligencia Artificial en tu sitio web y WhatsApp que atienden clientes, agendan citas y cierran ventas mientras tú duermes.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#soluciones" class="bg-accent hover:bg-blue-600 px-8 py-3 rounded-full font-bold text-lg transition shadow-lg">Ver Soluciones</a>
+                <a href="#contacto" class="bg-transparent border border-gray-400 hover:border-white px-8 py-3 rounded-full font-bold text-lg transition">Hablar con Asesor</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Soluciones (Plantillas) -->
+    <section id="soluciones" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold mb-4">Nuestros Perfiles de Agentes</h2>
+            <p class="text-gray-600 text-lg">Soluciones empaquetadas y listas para implementarse en 24 horas.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Ventas -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition border-t-4 border-accent">
+                <div class="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center text-accent text-2xl mb-6">
+                    <i class="fa-solid fa-comments-dollar"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3">El Cerrador de Ventas</h3>
+                <p class="text-gray-600 mb-4">Ideal para concesionarios, inmobiliarias y tiendas. Capta el número del cliente, perfila su interés y agenda llamadas para tu equipo comercial.</p>
+                <ul class="text-sm text-gray-500 space-y-2 mb-6">
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Captación de Leads</li>
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Integración con CRM</li>
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Calificación de prospectos</li>
+                </ul>
+            </div>
+
+            <!-- Recepción -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition border-t-4 border-highlight">
+                <div class="bg-green-100 w-14 h-14 rounded-full flex items-center justify-center text-highlight text-2xl mb-6">
+                    <i class="fa-solid fa-calendar-check"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3">Recepcionista Virtual</h3>
+                <p class="text-gray-600 mb-4">Ideal para clínicas, despachos y centros de servicio. Responde preguntas frecuentes, horarios y coordina la agenda de citas automáticamente.</p>
+                <ul class="text-sm text-gray-500 space-y-2 mb-6">
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Integración con Google Calendar</li>
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Respuestas a FAQs</li>
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Atención paciente 24/7</li>
+                </ul>
+            </div>
+
+            <!-- Soporte -->
+            <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition border-t-4 border-gray-800">
+                <div class="bg-gray-200 w-14 h-14 rounded-full flex items-center justify-center text-gray-800 text-2xl mb-6">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3">Soporte Técnico</h3>
+                <p class="text-gray-600 mb-4">Ideal para e-commerce y empresas de software. Revisa estados de pedido, maneja quejas con empatía y deriva tickets complejos a humanos.</p>
+                <ul class="text-sm text-gray-500 space-y-2 mb-6">
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Lectura de Base de Datos</li>
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Resolución nivel 1</li>
+                    <li><i class="fa-solid fa-check text-highlight mr-2"></i> Handoff a humano</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Section -->
+    <section class="bg-gray-200 py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">¿Por qué invertir en un empleado virtual?</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div>
+                    <h4 class="text-4xl font-extrabold text-accent mb-2">0</h4>
+                    <p class="text-gray-700">Días de vacaciones o incapacidades</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl font-extrabold text-accent mb-2">24/7</h4>
+                    <p class="text-gray-700">Disponibilidad sin horas extras</p>
+                </div>
+                <div>
+                    <h4 class="text-4xl font-extrabold text-accent mb-2">-80%</h4>
+                    <p class="text-gray-700">En costos operativos de atención</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 px-6 max-w-3xl mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-6">¿Listo para escalar tus ventas?</h2>
+        <p class="text-gray-600 text-lg mb-10">Déjanos tus datos y te configuraremos una demostración gratuita con un agente adaptado a tu negocio.</p>
+        
+        <form class="bg-white p-8 rounded-2xl shadow-lg text-left" onsubmit="event.preventDefault(); alert('Solicitud enviada. ¡Pronto te contactaremos!');">
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2">Nombre de la Empresa</label>
+                <input type="text" class="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Ej. Clínica Dental Sonrisas">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2">Correo Electrónico</label>
+                <input type="email" class="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-accent" placeholder="tu@empresa.com">
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 font-bold mb-2">¿Qué perfil necesitas?</label>
+                <select class="w-full px-4 py-3 rounded-lg border focus:outline-none focus:ring-2 focus:ring-accent">
+                    <option>Cerrador de Ventas</option>
+                    <option>Recepcionista Virtual</option>
+                    <option>Soporte Técnico</option>
+                </select>
+            </div>
+            <button type="submit" class="w-full bg-primary hover:bg-gray-800 text-white font-bold py-3 rounded-lg transition text-lg">Solicitar Demo Gratis</button>
+        </form>
+    </section>
+
+    <footer class="bg-primary text-gray-400 py-8 text-center">
+        <p>&copy; 2026 NexIA Soluciones. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
